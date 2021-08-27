@@ -194,4 +194,39 @@ label{
               grid-template: repeat(1,300px) / repeat(1, 300px);         
   }
   
+  .cabecera {
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    height: 320px
+  }
+    
+    .cabecera figure {
+      width:120px;
+      margin:auto;
+  }
+  
+  .cabecera img{
+    width:95px;
+    height:80px;
+  }
+  
+  .cabecera_h1{
+    
+    psition: absolute;
+    top: 40px;
+    left: 100px;
+    
+  }
+  
+  .cabecera_frase {
+    position:absolute;
+    top: 70px;
+    left:100px;
+  }
+  
+  .nav {
+    display:none;
+  }
+        
 }
