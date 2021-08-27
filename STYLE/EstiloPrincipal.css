@@ -165,4 +165,33 @@ label{
   text-align: center;  
 }
 
+/******************************/
+.espacio {
+ position:relative;
+ height:20px;
+}
 
+.PiePagina {
+ display:flex;
+ justify-content: center;
+ position: relative;
+ height: 105px;
+ background: #008899;
+ align-content: center;
+}
+
+.PiePagina footer {
+ 
+  text-align:center;
+  color:white;
+  
+}
+
+/*RESPONSIVE desing */
+  
+@media screen and  (max-width:600px) {
+         .tienda{
+              grid-template: repeat(1,300px) / repeat(1, 300px);         
+  }
+  
+}
